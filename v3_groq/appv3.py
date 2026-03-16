@@ -11,7 +11,7 @@ from langchain_core.tools import tool
 
 load_dotenv()
 
-# UI
+# User Interface
 st.set_page_config(page_title="Sharky AI", page_icon="🦈")
 
 # Streamlit Session State
