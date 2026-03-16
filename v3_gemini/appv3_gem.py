@@ -96,7 +96,7 @@ def get_current_time(timezone: str = "Asia/Kolkata") -> str:
     except Exception:
         return datetime.now(pytz.utc).strftime("%I:%M %p (UTC) | %A, %B %d, %Y")
 
-# Map tool names to the actual objects
+# Map tool names to the actual objects in system
 tools_map = {"get_current_weather": get_current_weather, "get_current_time": get_current_time}
 
 # Initialize Model with Tools 
