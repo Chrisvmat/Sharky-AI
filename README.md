@@ -20,28 +20,6 @@ v1_ollama  →  v3_groq  →  v3_gemini
 
 ---
 
-## 📁 Structure
-
-```
-sharky-ai/
-├── v1_ollama/
-│   ├── app.py
-│   └── requirements.txt
-├── v3_groq/
-│   ├── appv3.py
-│   └── requirements.txt
-├── v3_gemini/
-│   ├── appv3_gem.py
-│   └── requirements.txt
-├── assets/
-│   └── agent_flowchart.png
-├── .env.example
-├── .gitignore
-└── README.md
-```
-
----
-
 ## 🚀 Getting Started
 
 ### 1. Clone the repo
