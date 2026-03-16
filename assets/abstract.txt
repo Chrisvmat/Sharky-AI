@@ -1,0 +1,7 @@
+Sharky AI is a conversational AI chatbot built with Streamlit, developed across three iterative versions to explore progressively advanced LLM integration techniques.
+
+The first version uses Ollama to run open-source models (Phi3, LLaMA, TinyLLaMA) entirely locally — no internet, no API costs. The second version moves to the cloud using Groq's LLaMA 3.1 and introduces agentic behaviour via LangChain tool calling, enabling Sharky to fetch real-time weather and time data through external APIs. The final version upgrades the LLM to Google Gemini 2.5 Flash, refines the system prompt for broader general knowledge, and improves response handling for Gemini's content format.
+
+The project demonstrates core concepts in LLM application development: streaming responses, chat history management, tool/function calling, environment variable handling, and building a consistent UI persona across model backends.
+
+Stack: Python, Streamlit, Ollama, LangChain, Groq, Google Gemini, OpenWeatherMap API
